@@ -11,8 +11,23 @@
         <!--jar-file>demo-jpa.jar</jar-file-->
         <class>fr.diginamic.entities.Article</class>
         <properties>
-        <!-- JPA 3.x -->
+            <!-- JPA 3.x -->
             <property name="jakarta.persistence.jdbc.url" value="jdbc:mariadb://localhost/compta2" />
+            <property name="jakarta.persistence.jdbc.user" value="root" />
+            <property name="jakarta.persistence.jdbc.password" value="temporaire" />
+            <property name="jakarta.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver" />
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="demo-jpa-bis">
+        <description>This unit is experimental around the "compa2" database (MariaDB)
+        </description>
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <!--jta-data-source>java:app/jdbc/MyDataSource</jta-data-source-->
+        <!--jar-file>demo-jpa.jar</jar-file-->
+        <class>fr.diginamic.entities.Livre</class>
+        <properties>
+            <!-- JPA 3.x -->
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mariadb://localhost/compta" />
             <property name="jakarta.persistence.jdbc.user" value="root" />
             <property name="jakarta.persistence.jdbc.password" value="temporaire" />
             <property name="jakarta.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver" />
