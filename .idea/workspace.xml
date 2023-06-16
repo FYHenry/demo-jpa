@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c41a647-9b87-4408-bfa7-a6cf1a431be7" name="Changes" comment="TP2 done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/TestBibliotheque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entities/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entities/Compo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entities/Emprunt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/tools/init.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/tools/init.sql" afterDir="false" />
+    <list default="true" id="0c41a647-9b87-4408-bfa7-a6cf1a431be7" name="Changes" comment="TP3 : missing last JPQL requests.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/entities/Article.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/entities/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entities/Livre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686847708159</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TP3 : missing last JPQL requests.">
+      <created>1686912522034</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686912522034</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -148,7 +146,8 @@
     <MESSAGE value="New project" />
     <MESSAGE value="persistence and database functionnal" />
     <MESSAGE value="TP2 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP2 done" />
+    <MESSAGE value="TP3 : missing last JPQL requests." />
+    <option name="LAST_COMMIT_MESSAGE" value="TP3 : missing last JPQL requests." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
