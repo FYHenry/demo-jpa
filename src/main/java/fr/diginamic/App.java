@@ -6,9 +6,9 @@ import jakarta.persistence.*;
 
 public class App {
     public static void main(String[] args) {
-        try(EntityManagerFactory emf =
-                    Persistence.createEntityManagerFactory("demo-jpa-bis");
-            EntityManager em = emf.createEntityManager()){
+            try(EntityManagerFactory emf =
+                        Persistence.createEntityManagerFactory("demo-jpa");
+                EntityManager em = emf.createEntityManager()){
             printLivre(em, 2);
             em.getTransaction().begin();
             final Livre livre = new Livre("Titre", "Auteur");
