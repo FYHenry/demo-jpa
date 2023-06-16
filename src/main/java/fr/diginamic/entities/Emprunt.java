@@ -29,7 +29,7 @@ public class Emprunt {
     private Client client;
     /** Compositions */
     @OneToMany(mappedBy = "emprunt")
-    private Set<Compo> compos = new HashSet<>();
+    private final Set<Compo> compos = new HashSet<>();
 
     /**
      * Construire l’emprunt
@@ -62,13 +62,23 @@ public class Emprunt {
                     "date_debut":"%tF",
                     "delai":%d,
                     "date_fin:"%tF",
-                    "client":%s
+                    "client":%s,
+                    "livres":%s
                 }
                 """,
                 this.id,
                 this.dateDebut,
                 this.delai,
                 this.dateFin,
-                this.client);
+                this.client,
+                this.getLivres());
+    }
+    public Set<Livre> getLivres(){
+        final Set<Livre> livres = new HashSet<>();
+
+        for (Compo compo : this.compos) {
+            livres.add(compo.getLivre());
+        }
+        return livres;
     }
 }

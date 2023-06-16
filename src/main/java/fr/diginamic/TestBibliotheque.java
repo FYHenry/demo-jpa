@@ -11,12 +11,7 @@ public class TestBibliotheque {
         try(EntityManagerFactory emf =
                     Persistence.createEntityManagerFactory("demo-jpa");
                 EntityManager em = emf.createEntityManager()){
-            String query = "SELECT e FROM Emprunt e WHERE id=1";
-            final TypedQuery<Emprunt> empruntTQ =
-                    em.createQuery(query, Emprunt.class);
-            for (Emprunt emprunt : empruntTQ.getResultList()) {
-                System.out.println(emprunt);
-            }
+            System.out.println(em.find(Emprunt.class, 1));
         }
     }
 }

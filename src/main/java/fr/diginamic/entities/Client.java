@@ -21,7 +21,7 @@ public class Client {
     private String prenom;
     /** Emprunts */
     @OneToMany(mappedBy = "client")
-    private Set<Emprunt> emprunts = new HashSet<>();
+    private final Set<Emprunt> emprunts = new HashSet<>();
     /**
      * Construire le client.
      */

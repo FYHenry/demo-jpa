@@ -22,7 +22,7 @@ public class Livre {
     private String auteur;
     /** Compositions */
     @OneToMany(mappedBy = "livre")
-    private Set<Compo> compos = new HashSet<>();
+    private final Set<Compo> compos = new HashSet<>();
 
     /**
      * Constructeur standard.

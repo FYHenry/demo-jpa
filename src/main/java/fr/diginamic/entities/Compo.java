@@ -27,8 +27,8 @@ public class Compo {
 
     /**
      * Construire la composition par livre et emprunt.
-     * @param livre
-     * @param emprunt
+     * @param livre Livre
+     * @param emprunt Emprunt
      */
     public Compo(Livre livre, Emprunt emprunt) {
         this.livre = livre;
@@ -53,4 +53,7 @@ public class Compo {
                 this.emprunt);
     }
 
+    public Livre getLivre() {
+        return livre;
+    }
 }

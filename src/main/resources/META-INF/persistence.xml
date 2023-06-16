@@ -10,6 +10,9 @@
         <!--jta-data-source>java:app/jdbc/MyDataSource</jta-data-source-->
         <!--jar-file>demo-jpa.jar</jar-file-->
         <class>fr.diginamic.entities.Livre</class>
+        <class>fr.diginamic.entities.Client</class>
+        <class>fr.diginamic.entities.Emprunt</class>
+        <class>fr.diginamic.entities.Compo</class>
         <properties>
             <!-- JPA 3.x -->
             <property name="jakarta.persistence.jdbc.url"
