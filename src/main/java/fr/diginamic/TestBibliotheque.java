@@ -4,7 +4,6 @@ import fr.diginamic.entities.Emprunt;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
-import jakarta.persistence.TypedQuery;
 
 public class TestBibliotheque {
     public static void main(String[] args) {

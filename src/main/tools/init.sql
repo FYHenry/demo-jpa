@@ -62,6 +62,10 @@ INSERT INTO Compo (id_liv, id_emp) VALUES (3, 5);
 
 SHOW TABLES;
 DESC Client;
+SHOW INDEX FROM Client;
 DESC Livre;
+SHOW INDEX FROM Livre;
 DESC Emprunt;
+SHOW INDEX FROM Emprunt;
 DESC Compo;
+SHOW INDEX FROM Compo;

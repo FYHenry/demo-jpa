@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c41a647-9b87-4408-bfa7-a6cf1a431be7" name="Changes" comment="TP3 : missing last JPQL requests.">
+    <list default="true" id="0c41a647-9b87-4408-bfa7-a6cf1a431be7" name="Changes" comment="TP3 : missing one JPQL request.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/TestBanque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Adresse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/AssuranceVie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Banque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Compte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/LivretA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Virement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/utils/CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/tools/init_banque.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/TestBibliotheque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/TestBibliotheque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entities/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/entities/Compo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entities/Compo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/entities/Emprunt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entities/Emprunt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/entities/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entities/Livre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/tools/init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tools/init.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/tools/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tools/init.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +49,9 @@
       </list>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2RCh7rbiDe13S8D2nSkQzG6Smke" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/alnotz/Git/FYHenry/demo-jpa/src/main/tools/init_livre.sql",
+    "last_opened_file_path": "/home/alnotz/Git/FYHenry/demo-jpa/src/main/tools/init.sh",
     "settings.editor.selected.configurable": "configurable.group.editor"
   }
 }]]></component>
@@ -58,10 +72,26 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/tools" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TestBibliotheque">
+  <component name="RunManager" selected="Shell Script.init.sh">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.App" />
+      <module name="demo-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.TestBanque" />
       <module name="demo-jpa" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +116,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="init.sh" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/src/main/tools/init.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs>
+        <env name="ROOT_DIR" value="$PROJECT_DIR$" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.TestBanque" />
+      <item itemvalue="Application.TestBibliotheque" />
+      <item itemvalue="Shell Script.init.sh" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBanque" />
         <item itemvalue="Application.TestBibliotheque" />
         <item itemvalue="Application.App" />
       </list>
@@ -137,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686912685880</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="TP3 : missing one JPQL request.">
+      <created>1686918747526</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686918747526</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -159,7 +220,8 @@
     <MESSAGE value="persistence and database functionnal" />
     <MESSAGE value="TP2 done" />
     <MESSAGE value="TP3 : missing last JPQL requests." />
-    <option name="LAST_COMMIT_MESSAGE" value="TP3 : missing last JPQL requests." />
+    <MESSAGE value="TP3 : missing one JPQL request." />
+    <option name="LAST_COMMIT_MESSAGE" value="TP3 : missing one JPQL request." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
