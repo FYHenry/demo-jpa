@@ -32,7 +32,13 @@ public class Client {
     /**
      * Construction du client.
      */
-    public Client(){}
+    public Client(){
+        this.nom = "";
+        this.prenom = "";
+        this.dateDeNaissance = LocalDate.now();
+        this.adresse = new Adresse();
+        this.banque = new Banque();
+    }
 
     /** Construction du client par ses paramètres.
      *

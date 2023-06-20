@@ -4,25 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c41a647-9b87-4408-bfa7-a6cf1a431be7" name="Changes" comment="TP3 : missing one JPQL request.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/TestBanque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Adresse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/AssuranceVie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Banque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Compte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/LivretA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Virement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/utils/CRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/tools/init_banque.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0c41a647-9b87-4408-bfa7-a6cf1a431be7" name="Changes" comment="TP4 : done.">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/TestBibliotheque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/TestBibliotheque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/TestBanque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Adresse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Adresse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/AssuranceVie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/AssuranceVie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Banque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Banque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Compte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/LivretA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/LivretA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Virement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Virement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/utils/CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/utils/CRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tools/init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tools/init.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tools/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tools/init.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +71,7 @@
       <recent name="$PROJECT_DIR$/src/main/tools" />
     </key>
   </component>
-  <component name="RunManager" selected="Shell Script.init.sh">
+  <component name="RunManager" selected="Application.TestBanque">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.App" />
       <module name="demo-jpa" />
@@ -198,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686918747526</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TP4 : done.">
+      <created>1687185404569</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687185404569</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -221,7 +223,8 @@
     <MESSAGE value="TP2 done" />
     <MESSAGE value="TP3 : missing last JPQL requests." />
     <MESSAGE value="TP3 : missing one JPQL request." />
-    <option name="LAST_COMMIT_MESSAGE" value="TP3 : missing one JPQL request." />
+    <MESSAGE value="TP4 : done." />
+    <option name="LAST_COMMIT_MESSAGE" value="TP4 : done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,6 +1,8 @@
 package fr.diginamic.banque;
 
 import jakarta.persistence.*;
+
+import java.util.HashSet;
 import java.util.Set;
 
 /** Banque */
@@ -16,9 +18,10 @@ public class Banque {
     private String nom;
     /** Clients */
     @OneToMany(mappedBy = "banque")
-    Set<Client> clients;
+    Set<Client> clients = new HashSet<>();
     /** Construction de banque. */
     public Banque() {
+        this.nom = "";
     }
 
     /** Construction de banque par le nom.

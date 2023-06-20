@@ -27,6 +27,10 @@ public class Adresse {
     //private Client client;
     /** Construction d’une adresse. */
     public Adresse() {
+        this.numero = 0;
+        this.rue = "";
+        this.codePostal = 0;
+        this.ville = "";
     }
 
     /** Construction d’une adresse par ses paramètres.
