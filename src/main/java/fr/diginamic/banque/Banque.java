@@ -31,4 +31,7 @@ public class Banque {
     public Banque(String nom) {
         this.nom = nom;
     }
+    public void add(Client client){
+        this.clients.add(client);
+    }
 }

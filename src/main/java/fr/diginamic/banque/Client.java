@@ -3,6 +3,9 @@ package fr.diginamic.banque;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
+
 /** Client */
 @Entity
 @Table(name = "Client")
@@ -29,6 +32,11 @@ public class Client {
     @ManyToOne
     @JoinColumn(name = "id_banque")
     private Banque banque;
+    /** Comptes */
+    @ManyToMany
+    @JoinTable(joinColumns = {@JoinColumn(name = "id_client")},
+    inverseJoinColumns = {@JoinColumn(name = "id_compte")})
+    private Set<Compte> comptes = new HashSet<>();
     /**
      * Construction du client.
      */
@@ -56,5 +64,8 @@ public class Client {
         this.dateDeNaissance = dateDeNaissance;
         this.adresse = adresse;
         this.banque = banque;
+    }
+    public void add(Compte compte){
+        this.comptes.add(compte);
     }
 }

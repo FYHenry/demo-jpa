@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c41a647-9b87-4408-bfa7-a6cf1a431be7" name="Changes" comment="TP4 : done.">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="0c41a647-9b87-4408-bfa7-a6cf1a431be7" name="Changes" comment="TP5 : just missing Client-Compte association">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/TestBanque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Adresse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Adresse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/AssuranceVie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/AssuranceVie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Banque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Banque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Compte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/LivretA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/LivretA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Virement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/Virement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/utils/CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/utils/CRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687185404569</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="TP5 : just missing Client-Compte association">
+      <created>1687241617138</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687241617138</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -224,7 +223,8 @@
     <MESSAGE value="TP3 : missing last JPQL requests." />
     <MESSAGE value="TP3 : missing one JPQL request." />
     <MESSAGE value="TP4 : done." />
-    <option name="LAST_COMMIT_MESSAGE" value="TP4 : done." />
+    <MESSAGE value="TP5 : just missing Client-Compte association" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP5 : just missing Client-Compte association" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -30,7 +30,9 @@ public class Compte {
         this.numero = "";
         this.solde = 0;
     }
-
+    /** Clients */
+    @ManyToMany
+    private Set<Client> clients = new HashSet<>();
     /**
      * Construction de compte via les paramètres.
      * @param numero
@@ -41,6 +43,9 @@ public class Compte {
         this.solde = solde;
     }
     public void add(Operation operation){
-        operations.add(operation);
+        this.operations.add(operation);
+    }
+    public void add(Client client){
+        this.clients.add(client);
     }
 }
